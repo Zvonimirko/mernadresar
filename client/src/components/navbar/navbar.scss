@@ -1,0 +1,48 @@
+$color-primary: #1145ee;
+$color-secondary: #11b3ee;
+$font-center-fix: translateY(-3px);
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: $color-primary;
+
+  a {
+    text-decoration: none;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding-left: 2vw;
+
+    img {
+      height: 50px;
+    }
+
+    h2 {
+      transform: $font-center-fix;
+      color: white;
+    }
+  }
+
+  &__right {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2vw;
+    gap: 2vw;
+
+    .link {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5em;
+      font-weight: 500;
+      transform: $font-center-fix;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+$color-primary: #1145ee;
+$color-secondary: #11b3ee;
+$font-center-fix: translateY(-3px);
+
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+
+  h1 {
+    padding-top: 10vh;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    gap: 5vh;
+
+    &__input {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      p {
+        margin: 5px 0px;
+        color: #c4c4c4;
+      }
+
+      input {
+        font-size: 1.5em;
+      }
+    }
+
+    &__button {
+      margin: 3vh 0;
+      width: 115px;
+      height: 40px;
+      padding-bottom: 5px;
+      font-size: 1.2em;
+    }
+  }
+
+  &__no-account {
+    font-weight: bold;
+    font-size: 1.2em;
+
+    a {
+      text-decoration: none;
+      color: $color-primary;
+      font-weight: 500;
+    }
+  }
+}

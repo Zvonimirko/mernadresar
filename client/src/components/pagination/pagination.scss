@@ -1,0 +1,20 @@
+.contacts-main__pagination {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+
+  p {
+    margin: 0;
+  }
+
+  &__change {
+    cursor: pointer;
+    font-weight: bold;
+
+    &:hover {
+      text-shadow: #d7f2fc 4px 3px 3px;
+    }
+  }
+}

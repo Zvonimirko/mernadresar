@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./images/Logo.png">
+  <title>Contacts</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="navbar__left">
+      <h2>Adresar</h2><img src="./images/Logo.png" alt="Adresar logo">
+    </div>
+
+    <div class="navbar__right"><a href="favourites.html">Favourites</a><a href="index.html">Log out</a></div>
+  </div>
+  <div class="contacts-main">
+
+    <div class="contacts-main__list">
+      <div class="contacts-main__list__header">
+        <div class='contacts-main__list__header__title'>Name</div>
+        <div class='contacts-main__list__header__title'>Last Name</div>
+        <div class='contacts-main__list__header__title'>Contact</div>
+        <div class="contacts-main__list__header__options">
+          <div class="contacts-main__list__header__options__top">
+            <div class="contacts-main__list__header__options__top__per-page">
+              <p><span>15</span>
+                per page</p>
+            </div>
+            <div class="contacts-main__list__header__options__top__sort">
+              <p><span class='sort-a'>A</span> - <span class='sort-z'>Z</span></p>
+            </div>
+          </div>
+          <div class="contacts-main__list__header__options__bottom"><input type="text" name="" placeholder='Search'>
+          </div>
+        </div>
+      </div>
+      <div class="contacts-main__list__body">
+        <a class="contacts-main__list__body__item" href='contactDetails.html'>
+          <p>Zvonimir</p>
+          <p>Horvat</p>
+          <p>09 578 8889</p>
+          <p><span class="iconify" data-inline="false" data-icon="akar-icons:star" style="font-size: 20px;"></span>
+            <span class="iconify" data-inline="false" data-icon="bi:pen" style="font-size: 20px;"></span>
+            <span class="iconify" data-inline="false" data-icon="iwwa:delete" style="font-size: 20px;"></span>
+          </p>
+        </a>
+      </div>
+    </div>
+    <div class="contacts-main__pagination">
+      <div class='contacts-main__pagination__change'>Prev</div>
+      <div>
+        <p><span>1</span> od <span>5</span></p>
+      </div>
+      <div class='contacts-main__pagination__change'>Next</div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>@Zvonimir Horvat</p>
+  </div>
+</body>
+
+</html>

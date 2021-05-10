@@ -1,0 +1,13 @@
+$color-secondary: #11b3ee;
+
+.footer {
+  height: 10px;
+  background-color: $color-secondary;
+
+  p {
+    height: 100%;
+    font-size: 0.5em;
+    text-align: right;
+    margin: 0;
+  }
+}

@@ -1,0 +1,53 @@
+$color-primary: #1145ee;
+$color-secondary: #11b3ee;
+$font-center-fix: translateY(-3px);
+
+.contact-main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  background: url("../../images/connections\ adresar.png") no-repeat center /
+    cover;
+  backgroun h1 {
+    padding-top: 10vh;
+  }
+
+  h1 {
+    padding-top: 8vh;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    gap: 2vh;
+
+    &__input {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      p {
+        margin: 5px 0px;
+        color: #c4c4c4;
+      }
+
+      input,
+      select {
+        font-size: 1.5em;
+      }
+    }
+
+    &__button {
+      margin: 3vh 0;
+      width: 115px;
+      height: 40px;
+
+      padding-bottom: 5px;
+      font-size: 1.2em;
+    }
+  }
+}

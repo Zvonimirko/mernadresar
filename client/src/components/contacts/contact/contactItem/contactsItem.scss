@@ -1,0 +1,21 @@
+.contacts-main__list__body__item {
+  width: 100%;
+  display: flex;
+  justify-self: flex-start;
+  justify-content: space-evenly;
+  background-color: #d7f2fc;
+  border-radius: 3px;
+  cursor: pointer;
+
+  p:last-child {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+
+  p {
+    display: flex;
+    flex-basis: 24%;
+    width: 100%;
+  }
+}
